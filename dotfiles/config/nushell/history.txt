@@ -122,3 +122,36 @@ pbpaste | save starship.toml
 m
 ls
 cp -rf carapace ~/.dotfiles/dotfiles/config
+ls
+cd .dotfiles
+ls
+cd dotfiles/
+ls
+cd config/nushell/
+ls
+cd ../wezterm/
+ls
+ls -al 
+vi .github
+cd ../..
+cd ..
+ls
+ls -al
+ls
+cd dotfiles/
+ls
+cd config
+ls
+git submodule
+cd ../../..
+git submodule
+cd .dotfiles
+git submodule
+git submodule remove wezterm
+git submodule deinit wezterm
+git submodule deinit dotfiles/config/wezterm
+ls dotfiles/config/wezterm/
+git status
+git add dotfiles/config/nushell/history.tx
+git add dotfiles/config/wezterm
+git status
