@@ -1,0 +1,124 @@
+ls
+vi $env.config-path
+vi $nu.config-path
+source $nu.config-path
+ls ~/.cache/starship/
+starship init nu | save -f ~/.cache/starship/init.nu
+ls ~/.cache/starship/
+source $nu.config-path
+ls
+brew install zoxide
+vi $nu.env-path
+vi $nu.config-path
+source $nu.env-path
+source $nu.config-path
+z
+cd ~/Projects/
+cd ..
+z Projects/
+ls
+cd hcl
+cd ~
+z hcl
+brew install  carapace
+vi $nu.env-path
+vi $nu.config-path
+source $nu.env-path
+source $nu.config-path
+aws
+brew install awscli
+brew uninstall awscli
+brew install awscli
+aws s3 ls repos/moscow-firmware/
+cat $nu.config-path
+ls $nu.config-path
+ls
+nvim
+vi $nu.env-path
+vi $nu.config-path
+vi $nu.env-path
+source $nu.env-path
+vi $nu.env-path
+source $nu.env-path
+vi $nu.env-path
+source $nu.env-path
+source $nu.config-path
+ls
+pwd
+$env.EDITOR
+config nu
+env nu
+config nu\
+config nu
+source $nu.config-path
+config nu
+source $nu.config-path
+source $nu.config-paaath
+vi 
+vi $nu.env-path
+brew install caffeine
+config nu 
+lima ls
+limactl start default
+lima ls
+lima sudo apt install neofetch
+lima neofetch
+ping 192.168.4.1
+ping 192.168.0.1
+ping google.com
+ping 192.168.0.1
+ping 192.168.0.2
+ping 192.168.4.2
+brew install fnt 
+fnt list
+fnt 
+fnt help
+fnt update
+fnt list
+fnt search astigmata
+fnt search ast
+fnt search  Astigmata
+fnt install Astigmata
+cd ~
+cd Documents
+ls
+mkdir Mediatheque
+cd Mediatheque/
+scp pat@covenant.local:~/Documents/mediatheque/fonts/Astigmata-Regular.rar .
+ls
+open  Astigmata-Regular.rar
+ls
+open .
+rar
+brew uninstall rar
+brew list
+defaults write com.apple.dock orientation left<\n>
+killall Dock<\n><\n>
+cd ~/
+ls
+mkdir References
+cd References/
+mkdir repos
+cd repos
+git clone https://github.com/mathiasbynens/dotfiles.git mathiasbynens_dotfiles
+cd mathiasbynens_dotfiles/
+code .
+ping sulaco.local
+ls
+pwd
+cd Projects/
+ls
+cd ../References/
+ls
+cd repos/
+ls
+nvim ~/.config
+cd ~/.config
+ls
+nvim starship.toml
+pbpaste > starship.toml
+ls
+pbpaste | save starship.toml
+m
+ls
+cp -rf carapace ~/.dotfiles/dotfiles/config
