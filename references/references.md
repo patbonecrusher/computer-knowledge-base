@@ -66,4 +66,14 @@ A new type of shell.  Really nice, but is very different from zsh/bash.  Current
 [[mac-system-settings]]
 [[m-cli]]
 
+## gui
+```dataviewjs
+// Render a simple table of book info sorted by rating.
+const table = dv.markdownTable(["cli", "languages", "command", "desc"], dv.pages("#dev/gui")
+    .sort(b => b.file.link)
+    .map(b => [b.file.link, b.tags, b.command, b.description]))
+
+dv.paragraph(table);
+```
+
 

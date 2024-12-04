@@ -4,6 +4,9 @@ tags:
   - dev
   - dev/embedded/gui
   - dev/gui
+  - dev/language/rust
+  - dev/language/javascript
+  - dev/language/python
 ---
 
 ```cardlink
