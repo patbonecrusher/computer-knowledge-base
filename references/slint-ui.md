@@ -3,6 +3,7 @@ creation date: 2024-11-30 13:30
 tags:
   - dev
   - dev/embedded/gui
+  - dev/gui
 ---
 
 ```cardlink
