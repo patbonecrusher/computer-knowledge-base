@@ -26,4 +26,4 @@ favicon: assets/images/favicon.png
 
 
 
-![[Screenshot 2024-11-10 at 23.04.14.png]]
+![Screenshot 2024-11-10 at 23.04.14](attachments/Screenshot%202024-11-10%20at%2023.04.14.png)

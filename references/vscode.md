@@ -24,7 +24,7 @@ image: https://i.ytimg.com/vi/9_I0bySQoCs/maxresdefault.jpg
 ## file nesting
 
 This enables hiding header files under source file.
-![[Screenshot 2024-11-07 at 10.01.11.png]]
+![Screenshot 2024-11-07 at 10.01.11](attachments/Screenshot%202024-11-07%20at%2010.01.11.png)
 
 ```
   "explorer.fileNesting.enabled": true,

@@ -1,12 +1,12 @@
 
 ## cli tool
-[[carapace]] 
+[carapace](carapace.md) 
 A multi-shell completion **[library](https://github.com/carapace-sh/carapace)** and **[binary](https://github.com/carapace-sh/carapace-bin)**.  Very powerful.
 
-[[m-cli]]
+[m-cli](m-cli.md)
 Mac configuration/control swiss army knife
 
-[[zoxide]]
+[zoxide](zoxide.md)
 Better CD navigation.  Remembers where you've bin, making it quicker to get back to where you've been in the past.
 
 ```dataviewjs
@@ -42,29 +42,29 @@ dv.paragraph(table);
 
 ```dataviewjs const tCount = dv.pages("") .file.tasks.filter(task => dv.func.contains(task.tags, "⛑️") && !task.completed) .length; ```
 ## ide
-[[vscode]]
+[vscode](vscode.md)
 
 ## language/compilers/toolchains
-[[python]]
-[[esp-idf]] - espressif (ESP32) toolchain
+[python](python.md)
+[esp-idf](esp-idf.md) - espressif (ESP32) toolchain
 
 ## package managements
-[[homebrew]]
+[homebrew](homebrew.md)
 Using it over nix-os.  Nix os is much more powerful but requires sudo access, which I do not have on my company macbook
 
 ## prompts
-[[starship]]
+[starship](starship.md)
 Very fast prompt.  Comparable to power10k
 
 ## shell
-[[nushell]]
+[nushell](nushell.md)
 A new type of shell.  Really nice, but is very different from zsh/bash.  Currently investigating to get a feel on how I could use it.
 
 ## software
-[[obsidian]] -- knowledge management
+[obsidian](obsidian.md) -- knowledge management
 ## system configurations
-[[mac-system-settings]]
-[[m-cli]]
+[mac-system-settings](mac-system-settings.md)
+[m-cli](m-cli.md)
 
 ## gui
 ```dataviewjs
