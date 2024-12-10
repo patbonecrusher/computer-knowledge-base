@@ -12,7 +12,7 @@
   </a>
 </p>
 
-![screenshot](./.github/screenshots/wezterm.gif)
+![screenshot](./.github/screenshots/weztermpgif)
 
 ---
 

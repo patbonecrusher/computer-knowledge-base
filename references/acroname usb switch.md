@@ -4,4 +4,6 @@ tags:
   - dev/usb
   - dev/hardware
 ---
-![[Pasted image 20241121182511.png]]
+
+
+![Pasted image 20241121182511](attachments/Pasted%20image%2020241121182511.png)
