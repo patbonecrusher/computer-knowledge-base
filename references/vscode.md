@@ -54,6 +54,30 @@ Add to `settings.json`
 }
 ```
 
+## shortcuts
+
+### [Maximize Editor Group](https://code.visualstudio.com/updates/v1_84#_maximize-editor-group)
+
+There is a new command **View: Toggle Maximize Editor Group** (⌘K ⌘M) to maximize an editor group. This will hide all other groups and adds a button to the tab bar, allowing the user to restore the previous layout. If the setting `workbench.editor.doubleClickTabToToggleEditorGroupSizes` is set to `maximize`, users can double-click on an editor tab to maximize and unmaximize the editor group.
+
+### Toggle zen mode
+
+(⌘K Z) 
+
+## Config
+
+### no title bar in zen mode
+Add the following to `settings.json` to hide the title bar when in zen mode.
+`"window.customTitleBarVisibility":"windowed",`
+
+### hide breadcrumb bar
+
+```
+"breadcrumbs.enabled": false
+```
+
+
+
 ---
 ## references
 

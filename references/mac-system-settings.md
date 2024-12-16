@@ -16,6 +16,16 @@ killall dock
 ```
 
 
+## desktop
+
+To hide desktop icons
+
+```
+defaults write com.apple.finder CreateDesktop false
+
+killall finder
+```
+
 ## menubar
 I recently found out that it's possible to reduce the spacing of menu bar items to get more space. This doesn't change the size of the actual items, just the spacing between them.
 

@@ -16,6 +16,28 @@ favicon: https://github.githubassets.com/favicons/favicon.svg
 image: https://opengraph.githubassets.com/858183f70c71b65f8a62d2ac523575148945309eca6edf5cd0764c1b1dc12921/nushell/awesome-nu
 ```
 
+
+```cardlink
+url: https://www.youtube.com/watch?v=uJsZATwQ3R8&t=860s
+title: "Is Nushell Worth The Hype?"
+description: "This video is sponsored by Auth0!Up to 25k users can authenticate your app for free, get started here: https://auth0.com/signup?utm_source=devopstoolbox&utm_..."
+host: www.youtube.com
+favicon: https://www.youtube.com/s/desktop/3637873e/img/logos/favicon_32x32.png
+image: https://i.ytimg.com/vi/uJsZATwQ3R8/maxresdefault.jpg
+```
+
+
+
+```cardlink
+url: https://www.youtube.com/watch?v=LFBOLx5KiME
+title: "I Was Wrong About Nushell (I Finally Get It Now)"
+description: "✅ Zero To KNOWING Kubernetes in Under 90 Minutes:https://learn.omerxx.com/courses/k8s-from-scratch✅ Build a Second Brain With Neovim in Under 90 Minutes: htt..."
+host: www.youtube.com
+favicon: https://www.youtube.com/s/desktop/3637873e/img/logos/favicon_32x32.png
+image: https://i.ytimg.com/vi/LFBOLx5KiME/maxresdefault.jpg
+```
+	
+
 ---
 ## using vim by default
 
