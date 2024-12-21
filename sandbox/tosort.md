@@ -50,3 +50,12 @@ favicon: https://simpleicons.org/images/favicon.ico
 image: https://simpleicons.org/images/og.png
 ```
 
+
+```cardlink
+url: https://medium.com/no-nonsense-backend/8-rust-performance-tips-i-learned-from-years-of-coding-in-rust-a3232e10a17b
+title: "8 Rust Performance Tips I Learned From Years of Coding in Rust"
+description: "Hey Everyone!! I wanted to share these Rust Performance tips, that i feel that everyone should be aware of, since it took a lot of effort…"
+host: medium.com
+favicon: https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19
+image: https://miro.medium.com/v2/resize:fit:1200/0*ptMP63syuAu-FZsh.png
+```
