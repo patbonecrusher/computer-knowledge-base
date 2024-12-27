@@ -5,6 +5,15 @@ tags:
   - dev/language/css
 ---
 
+```cardlink
+url: https://kinesisjs.com
+title: "Kinesis"
+description: "Kinesis allows you to easily create interactive animations for your web apps."
+host: kinesisjs.com
+favicon: https://kinesisjs.com/favicon.png
+image: https://aminerman.com/kinesisjs/kinesis.jpg
+```
+
 
 ```cardlink
 url: https://github.com/you-dont-need/You-Dont-Need-JavaScript

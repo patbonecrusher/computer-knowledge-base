@@ -5,6 +5,29 @@ tags:
   - to-investigate-more
 ---
 
+---
+## to investigate
+
+```cardlink
+url: https://github.com/zevv/lsofgraph?tab=readme-ov-file
+title: "GitHub - zevv/lsofgraph: lsof to graphviz"
+description: "lsof to graphviz. Contribute to zevv/lsofgraph development by creating an account on GitHub."
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://opengraph.githubassets.com/bddbeae0230c9d94e8b21e8663339fe95e83b968186e53463b50b00e84f0aecd/zevv/lsofgraph
+```
+
+
+---
+Bunch of tools categorized
+```cardlink
+url: https://github.com/trimstray/the-book-of-secret-knowledge?tab=readme-ov-file
+title: "GitHub - trimstray/the-book-of-secret-knowledge: A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more."
+description: "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more. - trimstray/the-book-of-secret-knowledge"
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://opengraph.githubassets.com/7cef5e4133a054dd28add92b8ddfda6d88c9047b787ce9b87cbc8cee8641ef30/trimstray/the-book-of-secret-knowledge
+```
 
 
 I bought a license but I can't get it to work correctly.   Figure it out creating an entry it in the reference folder.

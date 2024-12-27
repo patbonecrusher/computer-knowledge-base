@@ -12,6 +12,10 @@ tags:
 ```
 defaults write com.apple.dock orientation left
 
+# Faster hide
+defaults write com.apple.dock autohide-time-modifier -float 0.15
+# revert: defaults delete com.apple.dock autohide-time-modifier
+
 killall dock
 ```
 

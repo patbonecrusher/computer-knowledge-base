@@ -42,7 +42,7 @@ print([h.text for h in BeautifulSoup(requests.get('https://example.com').content
 ## 3. Flatten Any Nested List Like a Boss
 
 ```python
-print([item for sublist in [[1, 2], [3, 4, [5, 6]]] for item in (sublist if isinstance(sublist, list) else [sublist])])
+print([item for sublist in [1, 2](1,%202)] for item in (sublist if isinstance(sublist, list) else [sublist])])
 ```
 _Nested lists were fun… for the first 10 minutes of your career. After that? Not so much._
 
