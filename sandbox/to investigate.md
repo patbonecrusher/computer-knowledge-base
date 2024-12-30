@@ -18,6 +18,22 @@ image: https://opengraph.githubassets.com/bddbeae0230c9d94e8b21e8663339fe95e83b9
 ```
 
 
+### ikos
+Looks pretty awesome to do static code analysis.  Can't install on my mac using brew.  It crash. 
+
+Next step, look into running it in a container!?
+
+```cardlink
+url: https://github.com/NASA-SW-VnV/ikos
+title: "GitHub - NASA-SW-VnV/ikos: Static analyzer for C/C++ based on the theory of Abstract Interpretation."
+description: "Static analyzer for C/C++ based on the theory of Abstract Interpretation. - NASA-SW-VnV/ikos"
+host: github.com
+favicon: https://github.githubassets.com/favicons/favicon.svg
+image: https://opengraph.githubassets.com/b5f3dcc5fd86fd1c3d4e3bce39dbc417d2d57c87755f7a79b9f528e126e336f1/NASA-SW-VnV/ikos
+```
+
+
+
 ---
 Bunch of tools categorized
 ```cardlink
