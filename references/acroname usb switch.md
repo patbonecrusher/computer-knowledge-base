@@ -3,6 +3,7 @@ creation date: 2024-11-21 13:30
 tags:
   - dev/usb
   - dev/hardware
+description: Allow turning off usb power to a specific port.
 ---
 
 

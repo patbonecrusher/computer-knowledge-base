@@ -6,6 +6,7 @@ tags:
   - software/utils
 os:
   - macos
+description: To access app menu anywhere on the screen
 ---
 Must have to pop open the app menu as a context menu under your mouse.  Using ```Ctrl-right-click```
 

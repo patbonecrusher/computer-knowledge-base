@@ -8,6 +8,9 @@ tags:
   - os/windows
 command: btm
 description: A customizable x-platform graphical process monitor.
+os:
+  - macos
+  - linux
 ---
 ```yaml
 os::xplatform
