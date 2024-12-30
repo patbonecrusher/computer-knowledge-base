@@ -1,9 +1,11 @@
 ---
 creation date: 2024-11-04 21:56
-modification date: Monday, 4th November 2024, 21:56:43
 tags:
   - shell/cli
   - shell/completion
+os:
+  - macos
+description: A multi-shell completion
 ---
 ```yaml
 os::macOs

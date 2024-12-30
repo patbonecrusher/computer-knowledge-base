@@ -4,12 +4,11 @@ tags:
   - shell/system-configuration
   - shell/cli
   - os/macos
+os:
+  - macos
+command: m
+description: macOS swiss army knife
 ---
-```yaml
-os::macOs
-command::m
-desc::macOS swiss army knife
-```
 
 
 ```cardlink

@@ -3,13 +3,13 @@ creation date: 2024-11-04 13:30
 tags:
   - dev/hardware
   - dev/usb
+os:
+  - linux
+  - macos
+  - windows
+command: pykush.py
+description: control usb device connectivity remotely
 ---
-```yaml
-os::*
-command::pykush.py
-desc::control usb device connectivity remotely
-```
-
 
 ```cardlink
 url: https://www.yepkit.com/products/ykush

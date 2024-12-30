@@ -16,6 +16,8 @@ image: https://starship.rs/icon.png
 
 ```zsh
 brew install starship
+
+curl -sS https://starship.rs/install.sh | sh
 ```
 
 ## Zsh 

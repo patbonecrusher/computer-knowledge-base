@@ -9,12 +9,6 @@ tags:
 command: git
 description: source control
 ---
-```yaml
-os::macOs
-command::git
-desc::git config
-```
-
 ## how to have a global git ignore
 
 ```bash

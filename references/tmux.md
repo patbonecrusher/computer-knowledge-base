@@ -3,13 +3,12 @@ creation date: 2024-11-04 13:30
 tags:
   - shell/multiplexer
   - shell/cli
+os:
+  - linux
+  - macos
+command: tmux
+description: Windows multiplexer
 ---
-```yaml
-os::*ix
-command::tmux
-desc::Windows multiplexer
-```
-
 ---
 
 ```cardlink

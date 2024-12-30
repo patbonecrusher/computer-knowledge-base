@@ -17,3 +17,8 @@ title: "Getting Started | mise-en-place"
 description: "mise-en-place documentation"
 host: mise.jdx.dev
 ```
+
+```
+mise use -g go@latest
+mise use -g rust@latest
+```

@@ -15,6 +15,10 @@ image: https://opengraph.githubassets.com/dd82908130df103cb384c91245207a84f7131d
 ```
 
 ```
+go install github.com/tigrawap/slit/cmd/slit@latest
+```
+
+```
 slit --filters="&StatTempApplication.cpp" -f tio_usb-FTDI_FT232R_USB_UART_AB841PGO-if00-port0_2024-12-09T22:17:11.log
 ```
 

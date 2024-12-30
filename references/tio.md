@@ -4,13 +4,12 @@ tags:
   - dev/tools
   - shell/cli
   - dev/serial-console
+os:
+  - linux
+  - macos
+command: tio
+description: superduper terminal alternative to minicom
 ---
-```yaml
-os::all
-command::tio
-desc::superduper terminal alternative to minicom
-```
-
 
 ```cardlink
 url: https://github.com/tio/tio?tab=readme-ov-file
