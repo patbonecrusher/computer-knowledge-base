@@ -4,6 +4,12 @@ modification date: Monday, 4th November 2024, 22:04:57
 tags:
   - shell/cli
   - shell/navigation
+  - shell/replacements
+command: cd
+description: Support jumping around to previously visited folders
+os:
+  - linux
+  - macos
 ---
 
 [![Cover image for zoxide - A faster alternative to boring cd command](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8vuq8qvkp5c1e8b1klss.jpg)](https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8vuq8qvkp5c1e8b1klss.jpg)

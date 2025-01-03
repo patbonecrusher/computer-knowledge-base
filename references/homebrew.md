@@ -4,6 +4,7 @@ modification date: Monday, 4th November 2024, 13:30:25
 tags:
   - shell/cli
   - shell/package-manager
+command: brew
 ---
 ```yaml
 os::macOs,Linux
