@@ -3,15 +3,12 @@ creation date: 2024-11-04 21:56
 tags:
   - shell/cli
   - shell/completion
+description: A multi-shell completion
 os:
   - macos
-description: A multi-shell completion
+source: brew
+url: https://carapace.sh
 ---
-```yaml
-os::macOs
-command::none
-desc::A multi-shell completion **[library](https://github.com/carapace-sh/carapace)** and **[binary](https://github.com/carapace-sh/carapace-bin)**
-```
 
 
 ![](Pasted%20image%2020241104220221.png)

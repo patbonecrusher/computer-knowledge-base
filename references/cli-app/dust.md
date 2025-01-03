@@ -4,11 +4,12 @@ tags:
   - shell/cli
   - shell/replacements
 command: dust
-url: https://github.com/bootandy/dust
 description: nicer `du`
 os:
   - linux
   - macos
+source: brew
+url: https://github.com/bootandy/dust
 ---
 
 ```cardlink

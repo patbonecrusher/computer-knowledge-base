@@ -11,11 +11,10 @@ description: A customizable x-platform graphical process monitor.
 os:
   - macos
   - linux
+source: brew
+url: https://github.com/ClementTsang/bottom
 ---
-```yaml
-os::xplatform
 
-```
 
 
 

@@ -4,6 +4,12 @@ tags:
   - shell/cli
   - shell/replacements
 command: cat (or bat)
+description: nicer `cat`
+os:
+  - linux
+  - macos
+source: brew
+url: https://github.com/sharkdp/bat
 ---
 
 ```cardlink
