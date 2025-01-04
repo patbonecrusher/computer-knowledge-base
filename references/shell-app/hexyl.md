@@ -3,13 +3,15 @@ creation date: 2024-12-30 10:21
 tags:
   - shell/cli
   - dev/tools
+command: hexyl
+description: good shell hex viewer with color output
 os:
   - linux
   - macos
-command: hexyl
-description: good shell hex viewer with color output
+source: brew
+url: https://github.com/sharkdp/hexyl
 ---
-
+---
 ```cardlink
 url: https://github.com/sharkdp/hexyl
 title: "GitHub - sharkdp/hexyl: A command-line hex viewer"

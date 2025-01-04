@@ -12,6 +12,14 @@ source: brew
 url: https://www.chezmoi.io/quick-start/#start-using-chezmoi-on-your-current-machine
 ---
 ---
+```cardlink
+url: https://www.chezmoi.io/quick-start/#start-using-chezmoi-on-your-current-machine
+title: "Quick start - chezmoi"
+description: "Manage your dotfiles across multiple machines, securely."
+host: www.chezmoi.io
+favicon: ../assets/images/favicon.png
+```
+
 To get the square border around atuin I had to update the config in `.config/atuin/config.toml`:
 
 ```toml

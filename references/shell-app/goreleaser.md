@@ -3,9 +3,17 @@ creation date: 2025-01-01 14:21
 tags:
   - shell/cli
   - dev/language/go
-  - dev/releaser
+  - dev/tools
+command: goreleaser
+description: 
+os:
+  - linux
+  - macos
+  - windows
+source: brew
+url: https://github.com/goreleaser/goreleaser
 ---
-
+---
 ```cardlink
 url: https://goreleaser.com/quick-start/
 title: "GoReleaser - Quick Start"

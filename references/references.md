@@ -1,5 +1,16 @@
 
 ## cli tool
+
+```dataviewjs
+// Render a simple table of book info sorted by rating.
+const table = dv.markdownTable(["cli", "command", "desc"], dv.pages("#shell/cli")
+    .sort(b => b.file.link)
+    .map(b => [b.file.link, b.command, b.description]))
+
+dv.paragraph(table);
+```
+
+
 [carapace](carapace.md) 
 A multi-shell completion **[library](https://github.com/carapace-sh/carapace)** and **[binary](https://github.com/carapace-sh/carapace-bin)**.  Very powerful.
 

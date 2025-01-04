@@ -11,7 +11,7 @@ os:
 source: brew
 url: https://github.com/alexmyczko/fnt
 ---
-
+---
 ```cardlink
 url: https://github.com/alexmyczko/fnt
 title: "GitHub - alexmyczko/fnt: apt for fonts, the missing font manager for macOS/linux"
@@ -22,5 +22,6 @@ image: https://opengraph.githubassets.com/8ba004d7b20fdba137d5bd79ed9b40ecc70435
 ```
 
 ```shell
-
+fnt update
+fnt install cascadia
 ```

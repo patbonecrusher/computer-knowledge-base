@@ -1,8 +1,8 @@
 ---
 creation date: 2024-11-04 13:30
 tags:
-  - dev/tools
   - shell/cli
+  - dev/tools
 command: git
 description: source control
 os:
@@ -12,6 +12,13 @@ os:
 source: Installed by default
 url: https://git-scm.com
 ---
+---
+```cardlink
+url: https://git-scm.com
+title: "Git"
+host: git-scm.com
+```
+
 ## how to have a global git ignore
 
 ```bash
@@ -54,7 +61,8 @@ Starting with a bad (step 1) and good (step 2) commit, _git bisect_ will jump 
 Everything up-to-date
 ```
 
-
+---
+#### references
 
 ```cardlink
 url: https://medium.com/the-syntax-diaries/git-commands-that-saved-our-1m-project-and-will-save-yours-too-8655413178c2

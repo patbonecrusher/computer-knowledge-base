@@ -11,7 +11,7 @@ os:
 source: brew
 url: https://github.com/sharkdp/fd
 ---
-
+---
 ```cardlink
 url: https://github.com/sharkdp/fd
 title: "GitHub - sharkdp/fd: A simple, fast and user-friendly alternative to 'find'"

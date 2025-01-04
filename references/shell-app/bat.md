@@ -12,7 +12,7 @@ os:
 source: brew
 url: https://github.com/sharkdp/bat
 ---
-
+---
 ```cardlink
 url: https://github.com/sharkdp/bat
 title: "GitHub - sharkdp/bat: A cat(1) clone with wings."

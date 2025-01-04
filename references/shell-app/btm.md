@@ -12,10 +12,7 @@ os:
 source: brew
 url: https://github.com/ClementTsang/bottom
 ---
-
-
-
-
+---
 ```cardlink
 url: https://clementtsang.github.io/bottom/stable/
 title: "Home - bottom"

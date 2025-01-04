@@ -11,7 +11,7 @@ command: trash-put (or rm)
 source: pip
 url: https://github.com/andreafrancia/trash-cli
 ---
-
+---
 ```cardlink
 url: https://github.com/andreafrancia/trash-cli
 title: "GitHub - andreafrancia/trash-cli: Command line interface to the freedesktop.org trashcan."
