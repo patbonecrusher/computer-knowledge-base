@@ -4,7 +4,21 @@ tags:
   - dev/ide
 command: nvim
 description: Better VI alternative
+os:
+  - linux
+  - macos
+source: brew
+url: https://neovim.io
 ---
+---
+```cardlink
+url: https://neovim.io
+title: "Home - Neovim"
+description: "vim out of the box"
+host: neovim.io
+```
+
+I like the Lazy vim setup, already fully configured for development.
 
 ```cardlink
 url: http://www.lazyvim.org/installation
