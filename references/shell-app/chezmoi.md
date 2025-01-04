@@ -25,3 +25,5 @@ To add the .config folder.
 ```shell
  echo ~/.config/* | xargs -rn1 | grep -v chezmoi | xargs -rn1 chezmoi add
 ```
+
+tes
