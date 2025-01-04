@@ -1,18 +1,17 @@
 ---
 creation date: 2024-11-04 13:30
-modification date: Monday, 4th November 2024, 13:30:25
 tags:
   - shell/cli
   - shell/package-manager
 command: brew
+description: macOS package manager
+os:
+  - linux
+  - macos
+source: Installed from website
+url: https://brew.sh
 ---
-```yaml
-os::macOs,Linux
-command::brew
-desc::The missing package manager for macOS (or Linux)
-```
-
-
+---
 ```cardlink
 url: https://brew.sh
 title: "Homebrew"
