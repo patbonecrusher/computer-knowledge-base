@@ -4,9 +4,11 @@ tags:
   - software/must-have
   - software/tools
   - software/utils
+description: To access app menu anywhere on the screen
 os:
   - macos
-description: To access app menu anywhere on the screen
+source: brew
+url: https://manytricks.com/menuwhere/
 ---
 Must have to pop open the app menu as a context menu under your mouse.  Using ```Ctrl-right-click```
 
