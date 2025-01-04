@@ -1,8 +1,8 @@
 ---
 creation date: 2024-11-04 21:56
 tags:
-  - shell/cli
   - shell/completion
+  - shell/enhancements
 description: A multi-shell completion
 os:
   - macos

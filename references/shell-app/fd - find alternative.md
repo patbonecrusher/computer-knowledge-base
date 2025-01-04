@@ -3,11 +3,13 @@ creation date: 2025-01-02 14:21
 tags:
   - shell/cli
   - shell/replacements
+command: fd
+description: A simple, fast and user-friendly file finder.
 os:
   - linux
   - macos
-command: fd
-description: A simple, fast and user-friendly file finder.
+source: brew
+url: https://github.com/sharkdp/fd
 ---
 
 ```cardlink

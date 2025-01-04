@@ -3,11 +3,14 @@ creation date: 2024-11-04 13:30
 tags:
   - dev/tools
   - shell/cli
-  - os/linux
-  - os/macos
-  - os/windows
 command: git
 description: source control
+os:
+  - linux
+  - macos
+  - windows
+source: Installed by default
+url: https://git-scm.com
 ---
 ## how to have a global git ignore
 

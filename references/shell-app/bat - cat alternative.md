@@ -3,6 +3,7 @@ creation date: 2025-01-02 14:21
 tags:
   - shell/cli
   - shell/replacements
+  - shell/app
 command: cat (or bat)
 description: nicer `cat`
 os:

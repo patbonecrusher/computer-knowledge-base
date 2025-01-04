@@ -3,9 +3,7 @@ creation date: 2024-11-04 13:30
 tags:
   - shell/cli
   - shell/system-monitor
-  - os/linux
-  - os/macos
-  - os/windows
+  - shell/app
 command: btm
 description: A customizable x-platform graphical process monitor.
 os:
