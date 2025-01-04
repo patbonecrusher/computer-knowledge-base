@@ -6,7 +6,6 @@ tags:
 ---
 ## Using [uv](uv.md)
 
-
 ## Using [asdf](asdf.md)
 Before installing python using asdf, install the following dependencies
 
