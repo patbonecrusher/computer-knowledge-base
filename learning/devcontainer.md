@@ -26,3 +26,9 @@ favicon: https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057
 image: https://miro.medium.com/v2/resize:fit:1024/1*fabz8f2W9ZWmTtC3SrYCMg.jpeg
 ```
 
+
+/Users/pat/Projects/covenofchaos/sandbox/python/devcontainer/myproject
+
+Open in vscode, it will ask to reopen in container, say yes
+Open a terminal you will be in the container /workspace/myproject
+uv run hello.py

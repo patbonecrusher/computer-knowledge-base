@@ -8,6 +8,48 @@ tags:
 ---
 ## to investigate
 
+
+```cardlink
+url: https://levelup.gitconnected.com/the-5-paid-subscriptions-i-actually-use-in-2025-as-a-staff-software-engineer-98033c94566e
+title: "The 5 paid subscriptions I actually use in 2025 as a Staff Software Engineer"
+description: "Tools I use that are cheaper than Netflix"
+host: levelup.gitconnected.com
+favicon: https://miro.medium.com/v2/resize:fill:256:256/1*MMpkJtmeCME-6BmGNH5l8A.png
+image: https://miro.medium.com/v2/resize:fit:1200/1*3XS-8r8adjnRoNH4YjKXpw.png
+```
+
+
+```cardlink
+url: https://medium.com/@letscodefuture/22-unique-developer-resources-you-should-explore-7c7e62d7c595
+title: "22 Unique Developer Resources You Should Explore"
+description: "In the ever-evolving world of development, staying updated with innovative tools and resources can supercharge your workflow and help you…"
+host: medium.com
+favicon: https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19
+image: https://miro.medium.com/v2/resize:fit:1200/1*28x1TOvAq5_3VrCgW94dbg.png
+```
+
+
+```cardlink
+url: https://medium.com/otto-tech/developer-hacks-modern-command-line-tools-and-advanced-git-commands-2985cf5f1bb8
+title: "Developer Hacks — Modern Command Line Tools and Advanced Git Commands"
+description: "Working with the terminal and with Git are among the basic techniques for developers. This article presents a modern development setup…"
+host: medium.com
+favicon: https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19
+image: https://miro.medium.com/v2/resize:fit:834/1*2WV5AOMwP-tRPslH2O1zmg.png
+```
+
+
+```cardlink
+url: https://excalidraw.com
+title: "Excalidraw — Collaborative whiteboarding made easy"
+description: "Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them."
+host: excalidraw.com
+favicon: https://excalidraw.com/favicon-32x32.png
+image: https://excalidraw.com/og-image-3.png
+```
+
+
+
 ```cardlink
 url: https://github.com/zevv/lsofgraph?tab=readme-ov-file
 title: "GitHub - zevv/lsofgraph: lsof to graphviz"

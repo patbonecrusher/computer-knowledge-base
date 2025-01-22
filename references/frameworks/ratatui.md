@@ -1,12 +1,13 @@
 ---
 creation date: 2024-12-03 21:57
 tags:
-  - dev/gui
   - shell/cli
   - to-investigate-more
   - dev/language/rust
+  - dev/tui
 description: Rust terminal ui framework
-language: rust
+language:
+  - rust
 url: https://github.com/ratatui/ratatui
 ---
 
