@@ -6,6 +6,17 @@ tags:
 ---
 
 ```cardlink
+url: https://nerdy.dev/6-css-snippets-every-front-end-developer-should-know-in-2025#transition-a-dialog
+title: "6 CSS Snippets Every Front-End Developer Should Know In 2025 · January 19, 2025"
+description: "Toolbelt worthy, powerful, and meaningful CSS you&#39;ll need for 2025."
+host: nerdy.dev
+favicon: https://nerdy.dev/favicon.ico
+image: https://res.cloudinary.com/dnpmdb8r8/image/upload/f_auto,c_limit,q_auto,w_auto/argyleink/6-css-snippets-2025-thumb.png
+```
+
+
+
+```cardlink
 url: https://kinesisjs.com
 title: "Kinesis"
 description: "Kinesis allows you to easily create interactive animations for your web apps."
