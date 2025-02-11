@@ -31,3 +31,10 @@ else()
 endif()  
 ```
 
+```bash
+#!/bin/sh  
+#  
+# REM File to do IDF operations for PSI comms firmware build  
+#  
+idf.py -B\build_psi -DBUILD_TARGET=PSI $@
+```
