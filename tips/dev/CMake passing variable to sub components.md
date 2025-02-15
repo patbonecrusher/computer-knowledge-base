@@ -12,23 +12,32 @@ To add pass an environment variable from the `cmake` command and have that envir
 In the main CMakeLists.txt
 
 ```cmake
+# For more information about build system see
+# https://docs.espressif.com/projects/esp-idf/en/latest/api-guides/build-system.html
+# The following five lines of boilerplate have to be in your project's
+# CMakeLists in this exact order for cmake to work correctly
+cmake_minimum_required(VERSION 3.16)
+
+
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+
 idf_build_set_property(COMPILE_OPTIONS "-DBUILD_TARGET=${BUILD_TARGET}" APPEND)  
-project("${PROJECT_BIN}") 
+project(foobar)
 ```
  
 In the sub components
 ```
-idf_build_get_property(_options COMPILE_OPTIONS)  
-if(_options MATCHES "-DBUILD_TARGET=PSI")  
-  message("------ Truck SDO type set to PSI")  
-  set(TRUCK_SDO_SRC "canOpenTruckSdoPsi.c"  "./profile/truckOD.c")  
-elseif(_options MATCHES "-DBUILD_TARGET=EURO")  
-  message("------ Truck SDO type set to EURO")  
-  set(TRUCK_SDO_SRC "canOpenTruckSdoEuro.c"  "./profile/euroTruckOD.c")  
-else()  
-  message(${_options})    
-  message(FATAL_ERROR "## invalid compiler -DBUILD_TARGET")  
-endif()  
+idf_build_get_property(_options COMPILE_OPTIONS)
+if(_options MATCHES "-DBUILD_TARGET=PSI")
+	message("------ Truck SDO type set to PSI")
+	set(TRUCK_SDO_SRC "canOpenTruckSdoPsi.c"  "./profile/truckOD.c")
+elseif(_options MATCHES "-DBUILD_TARGET=EURO")
+	message("------ Truck SDO type set to EURO")
+	set(TRUCK_SDO_SRC "canOpenTruckSdoEuro.c"  "./profile/euroTruckOD.c")
+else()
+	message(${_options})
+	message(FATAL_ERROR "## invalid compiler -DBUILD_TARGET")
+endif()
 ```
 
 ```bash

@@ -10,6 +10,16 @@ tags:
 
 
 ```cardlink
+url: https://blog.9ssi7.dev/why-choose-caddy-server-over-nginx-e49b01c631a1
+title: "Why Choose Caddy Server instead Nginx?"
+description: "As web technologies evolve, so do the tools and practices surrounding web server configurations. For years, Nginx has been the go-to choice…"
+host: blog.9ssi7.dev
+favicon: https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19
+image: https://miro.medium.com/v2/resize:fit:500/1*8n4iBQxH08IsWMV09j0z7g.png
+```
+
+
+```cardlink
 url: https://levelup.gitconnected.com/the-5-paid-subscriptions-i-actually-use-in-2025-as-a-staff-software-engineer-98033c94566e
 title: "The 5 paid subscriptions I actually use in 2025 as a Staff Software Engineer"
 description: "Tools I use that are cheaper than Netflix"

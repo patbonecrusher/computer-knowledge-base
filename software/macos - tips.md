@@ -8,3 +8,9 @@ tags:
 ## to open a finder window from anywhere/any app
 
 Open finder with `OPTION + COMMAND + SPACE`.  This will open the finder window for searching but you can then navigate to wherever you need to.
+
+## to unlock the keychain from cli over ssh
+
+```bash
+security -v unlock-keychain ~/Library/Keychains/login.keychain-db
+```
