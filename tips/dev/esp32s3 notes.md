@@ -52,6 +52,41 @@ General-purpose timers are typically used in the following scenarios:
 - To generate periodic alarms that trigger events at regular intervals;
     
 - To generate one-shot alarms that respond at a specific target time.
+
+```c
+typedef struct {
+    uint64_t event_count;
+} example_queue_element_t;
+
+static bool example_timer_on_alarm_cb(gptimer_handle_t timer, const gptimer_alarm_event_data_t *edata, void *user_ctx)
+{
+    BaseType_t high_task_awoken = pdFALSE;
+    QueueHandle_t queue = (QueueHandle_t)user_ctx;
+    // Retrieve the count value from event data
+    example_queue_element_t ele = {.event_count = edata->count_value};
+    // Optional: send the event data to other task by OS queue
+    // Do not introduce complex logics in callbacks
+    // Suggest dealing with event data in the main loop, instead of in this callback
+    xQueueSendFromISR(queue, &ele, &high_task_awoken);
+    // return whether we need to yield at the end of ISR
+    return high_task_awoken == pdTRUE;
+}
+
+gptimer_alarm_config_t alarm_config = {
+    .reload_count = 0,                  // counter will reload with 0 on alarm event
+    .alarm_count = 60 * 1000000,        // period = 1s @resolution 1MHz
+    .flags.auto_reload_on_alarm = true, // enable auto-reload
+};
+ESP_ERROR_CHECK(gptimer_set_alarm_action(gptimer, &alarm_config));
+
+gptimer_event_callbacks_t cbs = {
+    .on_alarm = example_timer_on_alarm_cb, // register user callback
+};
+ESP_ERROR_CHECK(gptimer_register_event_callbacks(gptimer, &cbs, queue));
+ESP_ERROR_CHECK(gptimer_enable(gptimer));
+ESP_ERROR_CHECK(gptimer_start(gptimer));
+```
+
 ---
 
 ---
