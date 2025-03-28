@@ -37,5 +37,38 @@ The following ensures brew casks are installed in the home Applications folder. 
 export HOMEBREW_CASK_OPTS="--appdir=~/Applications"
 export HOMEBREW_BAT=1    # Uses bat instead of cat when using brew cat ...
 export HOMEBREW_NO_INSECURE_REDIRECT=1 # Prevent download of suspicious origin.
+```
 
+## nice script to update and clean
+
+```zsh
+function bruc() {  
+echo "Starting Homebrew maintenance..."  
+  
+# Update Homebrew  
+if brew update; then  
+echo "Homebrew updated successfully."  
+else  
+echo "Error: Homebrew update failed." >&2  
+return 1  
+fi  
+  
+# Upgrade installed packages  
+if brew upgrade; then  
+echo "Homebrew packages upgraded successfully."  
+else  
+echo "Error: Homebrew upgrade failed." >&2  
+return 1  
+fi  
+  
+# Cleanup old versions  
+if brew cleanup; then  
+echo "Homebrew cleanup completed successfully."  
+else  
+echo "Error: Homebrew cleanup failed." >&2  
+return 1  
+fi  
+  
+echo "Homebrew maintenance completed."  
+}
 ```

@@ -101,3 +101,22 @@ host: docs.espressif.com
 
 
 
+
+---
+## logger
+
+```cardlink
+url: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/log.html
+title: "Logging library - ESP32 -  — ESP-IDF Programming Guide v5.2.4 documentation"
+host: docs.espressif.com
+```
+
+**ESP_LOG_BUFFER_HEXDUMP(tag, buffer, buff_len, level)**
+Dump a buffer to the log at specified level. 
+The dump log shows just like the one below: 
+
+```
+W (195) log_example: 0x3ffb4280   45 53 50 33 32 20 69 73  20 67 72 65 61 74 2c 20  |ESP32 is great, |
+W (195) log_example: 0x3ffb4290   77 6f 72 6b 69 6e 67 20  61 6c 6f 6e 67 20 77 69  |working along wi|
+W (205) log_example: 0x3ffb42a0   74 68 20 74 68 65 20 49  44 46 2e 00              |th the IDF..|
+```

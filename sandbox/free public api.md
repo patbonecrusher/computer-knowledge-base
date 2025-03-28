@@ -25,3 +25,13 @@ image: https://repository-images.githubusercontent.com/54346799/e5ee272c-dfe1-40
 ```
 
 
+```cardlink
+url: https://medium.com/pythoneers/10-mindblowing-free-apis-to-supercharge-your-next-project-8edd34df6254
+title: "10 MindBlowing Free APIs to Supercharge Your Next Project"
+description: "Make your projects 10x better!"
+host: medium.com
+favicon: https://miro.medium.com/v2/5d8de952517e8160e40ef9841c781cdc14a5db313057fa3c3de41c6f5b494b19
+image: https://miro.medium.com/v2/da:true/resize:fit:1200/0*im_8vdqTeemo4Y3s
+```
+
+
