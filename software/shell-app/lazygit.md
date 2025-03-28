@@ -21,3 +21,5 @@ host: github.com
 favicon: https://github.githubassets.com/favicons/favicon.svg
 image: https://opengraph.githubassets.com/e3dd83589957f41aa44793f5fe9dc467e2360fcb7169f83cec30f79659fe2dd2/jesseduffield/lazygit
 ```
+
+![[Screenshot 2025-03-27 at 22.23.06.png]]

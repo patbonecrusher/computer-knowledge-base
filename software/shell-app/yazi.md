@@ -30,3 +30,6 @@ host: terminaltrove.com
 favicon: https://terminaltrove.com/favicon-32x32.png
 image: https://terminaltrove.com/og/og.png
 ```
+
+
+![[Screenshot 2025-03-27 at 22.21.41.png]]

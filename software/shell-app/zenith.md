@@ -21,3 +21,5 @@ favicon: https://github.githubassets.com/favicons/favicon.svg
 image: https://opengraph.githubassets.com/9baf165a53b275f9c551ca559f29de12720954e46567451ff6b45dfa903ca969/bvaisvil/zenith
 ```
 
+
+![[Pasted image 20250327221610.png]]
