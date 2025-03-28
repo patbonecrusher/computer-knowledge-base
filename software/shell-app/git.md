@@ -61,6 +61,70 @@ Starting with a bad (step 1) and good (step 2) commit, _git bisect_ will jump 
 Everything up-to-date
 ```
 
+## Worktree helper
+
+```zsh
+function gwa() {  
+if [ -z "$1" ]; then  
+echo "Usage: gwa <branch-name>"  
+return 1  
+fi  
+  
+local branch="$1"  
+local repo_root  
+repo_root=$(git rev-parse --show-toplevel) # Get full path of the repo root  
+local repo_name  
+repo_name=$(basename "$repo_root") # Extract repo folder name  
+local branch_short="${branch:0:15}" # Limit branch name to 15 chars  
+local worktree_folder="../${repo_name}-${branch_short}" # Worktree directory  
+  
+echo "🚀 Setting up worktree at: $worktree_folder"  
+  
+# Fetch latest branches  
+git fetch origin  
+  
+# Check if the branch exists remotely  
+if git ls-remote --exit-code --heads origin "$branch" >/dev/null; then  
+	echo "🌍 Checking out existing remote branch '$branch'..."  
+	git worktree add --track -b "$branch" "$worktree_folder" origin/"$branch"  
+elif git show-ref --verify --quiet "refs/heads/$branch"; then  
+	echo "🔄 Branch '$branch' exists locally. Creating worktree..."  
+	git worktree add "$worktree_folder" "$branch"  
+else  
+	echo "🌱 Creating new branch '$branch' in a new worktree..."  
+	git worktree add -b "$branch" "$worktree_folder"  
+fi  
+  
+# Copy .env if it exists  
+if [ -e "$repo_root/.env" ]; then  
+	echo "📄 Copying .env..."  
+	cp "$repo_root/.env" "$worktree_folder/.env"  
+else  
+	echo "🚧 No .env file found. Skipping copy."  
+fi  
+  
+# Fresh install node_modules  
+echo "📦 Checking for node Dependencies..."  
+if [ -f "$repo_root/yarn.lock" ]; then  
+	(cd "$worktree_folder" && yarn install)  
+elif [ -f "$repo_root/package-lock.json" ]; then  
+	(cd "$worktree_folder" && npm install)  
+elif [ -f "$repo_root/pnpm-lock.yaml" ]; then  
+	(cd "$worktree_folder" && pnpm install)  
+else  
+	echo "❌ No lock file detected. Skipping dependency installation."  
+fi  
+  
+echo "✅ Worktree setup complete!"  
+  
+# Change directory into the new worktree folder  
+cd "$worktree_folder" || {  
+echo "❌ Failed to change directory into $worktree_folder"  
+return 1  
+}  
+}
+```
+
 ---
 #### references
 
