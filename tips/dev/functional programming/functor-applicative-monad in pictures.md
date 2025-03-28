@@ -5,6 +5,7 @@ tags:
 url: https://www.adit.io/posts/2013-04-17-functors,_applicatives,_and_monads_in_pictures.html
 ---
 ---
+Great blog about functor/applicative/monads...
 
 Here's a simple value:
 
