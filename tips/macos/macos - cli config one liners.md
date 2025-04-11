@@ -1,7 +1,7 @@
 ---
 creation date: 04/04/2025
 tags:
-  - macos/tips
+  - tips/macos
 ---
 
 

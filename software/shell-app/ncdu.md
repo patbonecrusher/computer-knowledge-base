@@ -3,7 +3,7 @@ creation date: 03/27/2025
 tags:
   - shell/cli
   - shell/app
-  - shell/devtools
+  - shell/devops
 command: ncdu
 description: file space disk analysys
 os:

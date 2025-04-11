@@ -1,8 +1,8 @@
 ---
 creation date: 2024-11-04 13:30
 tags:
-  - dev/hardware
-  - dev/usb
+  - hw/equipment
+  - hw/usb
 command: pykush.py
 description: Control usb device connectivity remotely
 os:

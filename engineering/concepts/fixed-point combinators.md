@@ -1,7 +1,8 @@
 ---
 creation date: 04/10/2025
 tags:
-  - dev/functional-programming
+  - engineering/concepts/fp
+  - engineering/language/javascript
 ---
 ---
 An introduction to *fixed-point combinators* and *lambda calculus* with *real-world JavaScript examples**showing their power and beauty.
@@ -250,4 +251,3 @@ Enjoy the world of combinators and functional JavaScript.
 
 Feel free to comment and share your thoughts!
 
-#engineering/coding #engineering/coding/functional programming# #engineering/coding/language/javascript#

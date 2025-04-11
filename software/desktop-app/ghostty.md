@@ -1,7 +1,7 @@
 ---
 creation date: 2025-01-19 14:55
 tags:
-  - desktop/terminal
+  - software/tools
 description: Super fast terminal app
 os:
   - linux

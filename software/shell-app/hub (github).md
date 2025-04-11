@@ -1,7 +1,6 @@
 ---
 creation date: 2024-11-27 13:30
 tags:
-  - dev/git
   - shell/cli
   - shell/replacements
 command: git or hub

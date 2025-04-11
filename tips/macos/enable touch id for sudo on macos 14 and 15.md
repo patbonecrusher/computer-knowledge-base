@@ -1,8 +1,7 @@
 ---
 creation date: 04/01/2025
 tags:
-  - macos/tips
-  - macos
+  - tips/macos
 ---
 ---
 ```cardlink
@@ -22,14 +21,13 @@ Posted on Jun 22, 2024
 
 # Enable Touch ID Authentication for sudo on macOS Sonoma 14.x
 
-[#macos](https://dev.to/t/macos)[#touchid](https://dev.to/t/touchid)[#security](https://dev.to/t/security)[#productivity](https://dev.to/t/productivity)
 
-### [](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#operating-environment)Operating Environment:
+### [Operating Environment](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#operating-environment)
 
 - **OS:** MacOS Sonoma 14.5
 - **Device:** M1 MacBook Pro
 
-## [](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#explanation)Explanation
+## [Explanation](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#explanation)
 
 In macOS Sonoma, a new method has been introduced to enable Touch ID when running `sudo`
 commands, making it more persistent across system updates. Previously, editing the
@@ -38,9 +36,9 @@ requiring reconfiguration. With Sonoma, the settings can be added to a separate 
 `/etc/pam.d/sudo_local`, which isn't overwritten during updates, allowing Touch ID to remain
 enabled for `sudo` commands consistently.
 
-## [](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#steps-to-enable-touch-id-for-raw-sudo-endraw-)Steps to Enable Touch ID for `sudo`
+## [Steps to Enable Touch ID for `sudo`](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#steps-to-enable-touch-id-for-raw-sudo-endraw-)
 
-### [](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#1-create-and-edit-the-configuration-file)1. Create and Edit the Configuration File
+### [1. Create and Edit the Configuration File](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#1-create-and-edit-the-configuration-file)
 
 Create a new configuration file based on the template provided in macOS Sonoma.
 
@@ -73,7 +71,7 @@ In the file, locate the following line, Uncomment it by removing the `#`:
 
 ```
 
-### [](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#alternative-method-using-raw-sed-endraw-and-raw-tee-endraw-)Alternative Method Using `sed` and `tee`
+### [Alternative Method Using `sed` and `tee`](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#alternative-method-using-raw-sed-endraw-and-raw-tee-endraw-)
 
 You can achieve the same result with a single command using `sed` and `tee`:
 
@@ -85,7 +83,7 @@ sed -e 's/^#auth/auth/' /etc/pam.d/sudo_local.template | sudo tee /etc/pam.d/sud
 
 ```
 
-### [](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#2-confirm-the-operation)2. Confirm the Operation
+### [2. Confirm the Operation](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#2-confirm-the-operation)
 
 Open a new terminal session and run a `sudo` command to test the setup:
 
@@ -101,7 +99,7 @@ You should be prompted to authenticate using Touch ID. If the command executes a
 
 [![Screenshot 2024-06-22 at 4 48 00 PM](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fgist.github.com%2Fassets%2F55068936%2Fce9c32f4-a1e2-44bb-99e2-7a31af15309f)](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fgist.github.com%2Fassets%2F55068936%2Fce9c32f4-a1e2-44bb-99e2-7a31af15309f)
 
-### [](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#background)Background
+### [Background](https://dev.to/siddhantkcode/enable-touch-id-authentication-for-sudo-on-macos-sonoma-14x-4d28#background)
 
 Previously, enabling Touch ID for `sudo` required modifying `/etc/pam.d/sudo`, but these changes did not persist through macOS updates. By leveraging the new `/etc/pam.d/sudo_local` configuration in macOS Sonoma, we can ensure that Touch ID settings for `sudo` remain intact even after system updates.
 
