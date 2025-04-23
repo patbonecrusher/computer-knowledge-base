@@ -74,6 +74,24 @@ Add to `settings.json`
 
 There is a new command **View: Toggle Maximize Editor Group** (⌘K ⌘M) to maximize an editor group. This will hide all other groups and adds a button to the tab bar, allowing the user to restore the previous layout. If the setting `workbench.editor.doubleClickTabToToggleEditorGroupSizes` is set to `maximize`, users can double-click on an editor tab to maximize and unmaximize the editor group.
 
+### Only resize editor
+
+```json
+{ "key": "cmd+numpad_add",      "command": "editor.action.fontZoomIn" },
+{ "key": "shift+cmd+=",         "command": "editor.action.fontZoomIn" },
+{ "key": "cmd+=",               "command": "editor.action.fontZoomIn" },
+{ "key": "cmd+numpad_subtract", "command": "editor.action.fontZoomOut" },
+{ "key": "shift+cmd+-",         "command": "editor.action.fontZoomOut" },
+{ "key": "cmd+-",               "command": "editor.action.fontZoomOut" },
+{ "key": "cmd+numpad0",         "command": "editor.action.fontZoomReset" },
+{ "key": "cmd+0",               "command": "editor.action.fontZoomReset" },
+```
+
+In settings.json
+
+```json
+"editor.mouseWheelZoom": true
+```
 ### Toggle zen mode
 
 (⌘K Z) 
@@ -136,7 +154,6 @@ description: "Extension for Visual Studio Code - Organize your workspaces in a s
 host: marketplace.visualstudio.com
 image: https://kruemelkatze.gallerycdn.vsassets.io/extensions/kruemelkatze/vscode-dashboard/2.6.0/1669153714791/Microsoft.VisualStudio.Services.Icons.Default
 ```
-
 
 ### Visual enhancement
 #### Peacock
@@ -271,5 +288,55 @@ description: "Discover the best VSCode extensions that enhance your coding exper
 host: blog.devgenius.io
 favicon: https://miro.medium.com/v2/resize:fill:256:256/1*CvejhRq3NYsivxILYXEdfA.jpeg
 image: https://miro.medium.com/v2/resize:fit:1200/1*xGN-hqNNL_V_P2gB6MrPhA.jpeg
+```
+
+
+
+
+```
+# AI Assistance & Productivity 
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
+
+# Pretyness
+code --install-extension github.github-vscode-theme
+code --install-extension aaron-bond.better-comments
+code --install-extension equinusocio.vsc-material-theme-icons
+code --install-extension file-icons.file-icons
+code --install-extension johnpapa.vscode-peacock
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension ms-vscode.cpptools-themes    
+
+# Documentations
+code --install-extension bbenoist.doxygen
+code --install-extension bierner.markdown-mermaid
+code --install-extension jebbs.plantuml
+code --install-extension mermaidchart.vscode-mermaid-chart
+
+# Development Essentials
+code --install-extension kruemelkatze.vscode-dashboard       # Project dashboard
+code --install-extension eamodio.gitlens                     # Git on steroid
+code --install-extension aykutsarac.jsoncrack-vscode         # Json viewer
+code --install-extension ms-vscode.cmake-tools
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.cpptools-extension-pack
+code --install-extension usernamehw.errorlens                # Inline live err
+code --install-extension xaver.clang-format                  # Formatter
+code --install-extension golang.go                           # Go support  
+
+
+# API & Testing  
+code --install-extension rangav.vscode-thunder-client        # API testing
+code --install-extension humao.rest-client                   # API testing
+code --install-extension wallabyjs.quokka-vscode             # Javascript test
+
+# Remote development
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension ms-vscode.remote-explorer
+code --install-extension ms-vscode.remote-server
 ```
 
