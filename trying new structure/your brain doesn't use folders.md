@@ -33,5 +33,6 @@ I defined the following macrostructure to which I _link_ every piece of informat
 - **Action** — do I need to investigate the topic further, discuss it with somebody, or read it in a quiet minute?
 
 ---
-[inputs](inputs.md)
-[actions](actions.md)
+**Action:** [to-investigate](to-investigate.md)
+**Source:** [medium.com](medium.com.md)
+**Subject:** [organization](organization.md)
