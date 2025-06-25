@@ -21,4 +21,8 @@ asciinema rec
 
 # to convert to gif
 agg <recordedfile>.cast animsession.gif
+
+# to use fancy fonts (if you have some in your prompt)
+ agg --font-family "JetBrainsMonoNL Nerd Font"  test.cast test.gif
+ 
 ```
