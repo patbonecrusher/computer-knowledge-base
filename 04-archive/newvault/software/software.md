@@ -1,0 +1,99 @@
+
+## cli tool
+
+```dataviewjs
+// Render a simple table of book info sorted by rating.
+const table = dv.markdownTable(["cli", "command", "desc"], dv.pages("#shell/cli")
+    .sort(b => b.file.link)
+    .map(b => [b.file.link, b.command, b.description]))
+
+dv.paragraph(table);
+```
+
+
+[carapace](04-archive/newvault/software/shell-enhancements/carapace.md) 
+A multi-shell completion **[library](https://github.com/carapace-sh/carapace)** and **[binary](https://github.com/carapace-sh/carapace-bin)**.  Very powerful.
+
+[m-cli](04-archive/newvault/software/shell-app/m-cli.md)
+Mac configuration/control swiss army knife
+
+[zoxide](04-archive/newvault/software/shell-app/zoxide.md)
+Better CD navigation.  Remembers where you've bin, making it quicker to get back to where you've been in the past.
+
+```dataviewjs
+// Render a simple table of book info sorted by rating.
+const table = dv.markdownTable(["cli", "os", "command", "desc"], dv.pages("#computer/cli")
+    .sort(b => b.file.link)
+    .map(b => [b.file.link, b.os, b.command, b.desc]))
+
+dv.paragraph(table);
+```
+
+
+## cli process monitor 
+
+```dataviewjs
+// Render a simple table of book info sorted by rating.
+const table = dv.markdownTable(["cli", "os", "command", "desc"], dv.pages("#computer/sys-mon")
+    .sort(b => b.file.link)
+    .map(b => [b.file.link, b.os, b.command, b.desc]))
+
+dv.paragraph(table);
+```
+
+```dataviewjs
+// Render a simple table of book info sorted by rating.
+const table = dv.markdownTable(["cli", "os", "command", "desc"], dv.pages("#shell/system-monitor")
+    .sort(b => b.file.link)
+    .map(b => [b.file.link, b.os, b.command, b.description]))
+
+dv.paragraph(table);
+```
+
+```dataviewjs
+// Render a simple table of book info sorted by rating.
+const table = dv.markdownTable(["cli", "os", "command", "desc"], dv.pages("#dev/language/python")
+    .sort(b => b.file.link)
+    .map(b => [b.file.link, b.os, b.command, b.description]))
+
+dv.paragraph(table);
+```
+
+
+```dataviewjs const tCount = dv.pages("") .file.tasks.filter(task => dv.func.contains(task.tags, "⛑️") && !task.completed) .length; ```
+## ide
+[vscode](04-archive/newvault/software/desktop-app/vscode.md)
+
+## language/compilers/toolchains
+[python](04-archive/newvault/engineering/language/python.md)
+[esp-idf](04-archive/newvault/software/sdks/esp-idf.md) - espressif (ESP32) toolchain
+
+## package managements
+[homebrew](04-archive/newvault/software/shell-app/homebrew.md)
+Using it over nix-os.  Nix os is much more powerful but requires sudo access, which I do not have on my company macbook
+
+## prompts
+[starship](04-archive/newvault/software/shell-enhancements/starship.md)
+Very fast prompt.  Comparable to power10k
+
+## shell
+[nushell](04-archive/newvault/software/shell-app/nushell.md)
+A new type of shell.  Really nice, but is very different from zsh/bash.  Currently investigating to get a feel on how I could use it.
+
+## software
+[obsidian](04-archive/newvault/software/desktop-app/obsidian.md) -- knowledge management
+## system configurations
+[mac-system-settings](04-archive/newvault/os/macos/mac-system-settings.md)
+[m-cli](04-archive/newvault/software/shell-app/m-cli.md)
+
+## gui
+```dataviewjs
+// Render a simple table of book info sorted by rating.
+const table = dv.markdownTable(["cli", "languages", "command", "desc"], dv.pages("#dev/gui")
+    .sort(b => b.file.link)
+    .map(b => [b.file.link, b.tags, b.command, b.description]))
+
+dv.paragraph(table);
+```
+
+

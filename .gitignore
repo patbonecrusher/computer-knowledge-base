@@ -38,3 +38,9 @@ Temporary Items
 .obsidian/
 
 # End of https://www.toptal.com/developers/gitignore/api/obsidian,macos
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env
