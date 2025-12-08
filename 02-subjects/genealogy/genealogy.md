@@ -10,6 +10,12 @@ tags:
 
 Personal genealogy research tracking family history, historical connections, and ancestral documentation.
 
+## 🚀 Active Projects
+
+**[[../../03-projects/immigrant-ancestors-book/00-project-index|Crossing Borders: Immigrant Ancestors and Revolutionary Heroes]]** - Writing a book about ancestors who immigrated to North America and those who shaped its history
+
+---
+
 ## 📁 Research Areas
 
 ### 👨‍👩‍👧‍👦 Family Research
@@ -38,6 +44,13 @@ Detailed research on specific family lines and individuals:
 - [[families/Jacques Ritchot (Richard Nason)|Jacques Ritchot / Richard Nason]]
 - [[families/michaud-florina|Florina Michaud]]
 - [[families/langelier real|Réal Langelier]]
+
+#### Immigrant Ancestors & Revolutionary Heroes
+- [[families/matthias-farnsworth-i|Matthias Farnsworth I]] - English weaver, Groton MA founder (c.1664)
+- [[families/matthias-farnsworth-ii|Matthias Farnsworth II]] - Died defending Groton (1693), father of Claude-Mathias
+- [[families/louis-badaillac|Louis Badaillac dit Laplante]] - Carignan-Salières soldier (1665), father of Detroit founder
+- [[families/claude-mathias-phaneuf|Claude-Mathias Phaneuf]] - English captive (1704), ancestor of all Phaneufs
+- [[families/clement-gosselin|Clément Gosselin]] - American Revolution captain, Washington's spy (1775-1781)
 
 ---
 
